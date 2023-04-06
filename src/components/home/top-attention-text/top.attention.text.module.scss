@@ -1,0 +1,9 @@
+.attention {
+    @media all and (min-width: 320px) {
+        @apply flex items-center justify-center bg-[#EBEBEB] text-[3.26vw] font-semibold w-[57vw] mx-auto rounded-[5px] py-[1.38vw] space-x-[1.5vw];   
+    }
+
+    @media all and (min-width: 576px) {
+        @apply text-[1.55vw] space-x-[0.5vw] w-[27.67vw] rounded-[16px] py-[0.9vw];
+    }
+}

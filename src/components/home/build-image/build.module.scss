@@ -1,0 +1,9 @@
+.image__wrapper {
+    @media all and (min-width: 320px) {
+        @apply w-full flex mx-auto mt-[-7vh];
+    }
+
+    @media all and (min-width: 576px) {
+        @apply w-[60vw] flex mx-auto mt-[-20vh];
+    }
+}

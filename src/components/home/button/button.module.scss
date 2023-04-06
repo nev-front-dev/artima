@@ -1,0 +1,17 @@
+.button {
+    @media all and (min-width: 320px) {
+        @apply w-[94.42vw] flex flex-col mx-auto items-center text-[5.12vw] text-white font-bold py-[4vw] space-y-[1vh];
+        background: linear-gradient(180deg, #43C904 0%, #4EB121 34.76%, #1C8B20 64.62%, #449C59 100%);
+        border-radius: 8.07087px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.25);
+        box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.5);
+
+        span:nth-child(2) {
+            @apply w-[96vw] flex flex-col mx-auto items-center text-[#D9D9D9] text-[3.25vw] font-normal;
+        }
+    }
+
+    @media all and (min-width: 576px) {
+        @apply w-[94.42vw] flex flex-col mx-auto items-center text-[3.12vw];
+    }
+}

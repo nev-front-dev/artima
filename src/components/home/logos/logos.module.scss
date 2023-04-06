@@ -1,0 +1,5 @@
+.logos__wrapper {
+    @media all and (min-width: 320px) {
+        @apply flex space-x-[3vw] mt-[3vh] mx-[4vw];
+    }
+}

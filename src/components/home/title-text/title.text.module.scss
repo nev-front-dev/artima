@@ -1,0 +1,7 @@
+.title {
+    @apply text-[4.65vw] font-bold text-center mt-[4vw];
+
+    @media all and (min-width: 576px) {
+        @apply mt-[3.06vh] text-[3.44vw];
+    }
+}

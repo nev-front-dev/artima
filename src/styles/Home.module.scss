@@ -1,0 +1,14 @@
+.main {
+  @apply h-screen w-screen overflow-x-hidden;
+
+  @media all and (min-width: 320px) {
+    @apply py-[2.4vh];
+  }
+
+  @media all and (min-width: 576px) {
+    @apply py-[6vh];
+  }
+}
+.attention {
+  @apply bg-[#EBEBEB] h-[2vh] w-full;
+}

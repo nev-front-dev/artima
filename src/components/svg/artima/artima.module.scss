@@ -1,0 +1,5 @@
+.icon__wrapper {
+    @media all and (min-width: 320px) {
+        @apply flex justify-center w-[40%];   
+    }
+}

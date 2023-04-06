@@ -1,0 +1,65 @@
+.overflow__popup {
+    @apply fixed top-0 left-0 w-screen h-screen z-10;
+    background: rgba(0, 0, 0, 0.7);
+}
+.inner__popup {
+    @apply bg-[#FAFAFA] relative top-[25%] left-0 mx-[4vw] p-[4vw] rounded-[7px];
+}
+.indicator__popup {
+    @media all and (min-width: 320px) {
+        @apply flex flex-col items-center;
+    
+        span {
+            @apply text-black font-normal text-[2.4vw];
+        }
+        
+        p {
+            @apply w-[60vw] h-[4vw] rounded-full mt-[0.5vh];
+            background: linear-gradient(90deg, #00CC89 -3.35%, #C5FF77 35.94%);
+        }
+    }
+}
+.title__popup {
+    @media all and (min-width: 320px) {
+        @apply text-[#4E4E4E] font-bold text-[4.7vw] text-center uppercase mt-[1.5vh];
+    }
+}
+.attention__text_popup {
+    @media all and (min-width: 320px) {
+        @apply text-[#FF3A2E] text-center font-normal text-[2.4vw] mt-[1vh];
+
+        span {
+            @apply font-bold;
+        }
+    }
+}
+.attention__subtext_popup {
+    @media all and (min-width: 320px) {
+        @apply text-[#4E4E4E] text-center font-normal text-[2.4vw] mt-[1vh];
+    }
+}
+.form__popup {
+    @media all and (min-width: 320px) {
+        @apply flex flex-col space-y-[3vw] mt-[2vw] relative;
+        input {
+            @apply w-full bg-[#EEEEEE] rounded-[4px] h-[8vw];
+        }
+        button {
+            @apply text-white text-center font-bold text-[4vw] mt-[1.5vh] py-[2vw];
+            background: linear-gradient(180deg, #43C904 0%, #4EB121 34.76%, #1C8B20 64.62%, #449C59 100%);
+            border-radius: 3.92381px;
+
+        }
+    }
+}
+.name__input {
+    @apply absolute top-[5vw] left-[3vw];
+}
+.email__input {
+    @apply absolute bottom-[14.5vw] left-[3vw];
+}
+.bottom__text_popup {
+    @media all and (min-width: 320px) {
+        @apply text-[#4E4E4E] text-center font-normal text-[2.4vw] mt-[1.5vh];
+    }
+}

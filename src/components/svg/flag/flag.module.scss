@@ -1,0 +1,8 @@
+.icon__wrapper {
+    @media all and (min-width: 320px) {
+        @apply w-[30px];   
+    }
+    @media all and (min-width: 576px) {
+        @apply w-[3.5vw];   
+    }
+}
